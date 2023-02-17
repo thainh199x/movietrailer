@@ -1,0 +1,32 @@
+.navBar {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.bgTransparent {
+  background-color: transparent;
+}
+
+.bgBlack {
+  background-color: black;
+}
+
+.flexNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.search {
+  border: 0;
+  width: 1.5rem;
+}
+
+.movieApp {
+  font-size: larger;
+  border: 0;
+  text-decoration: none;
+  color: red;
+}
